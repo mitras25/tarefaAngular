@@ -1,0 +1,32 @@
+ 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container form {
+  border: 2px solid black;
+  height: 30rem;
+  width: 35rem;
+  border-radius: .5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-header {
+  border-bottom: 2px solid black;
+}
+
+.form-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.form-content {
+  padding: 1rem;
+  flex-grow: 1;
+}
+
+
