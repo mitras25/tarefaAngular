@@ -1,0 +1,14 @@
+<div [ngClass]= "{box: addBox, 'box-red': addBoxRed}">
+  <p>algum paragrafo</p>
+</div>
+
+<label>
+  box
+  <input type="checkbox"  value="true" (change)="changeBox($event)">
+</label>
+
+<label>
+  box
+  <input type="checkbox"  value="true" (change)="changeBoxRed($event)">
+</label>
+

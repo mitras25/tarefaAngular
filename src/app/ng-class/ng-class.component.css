@@ -1,0 +1,12 @@
+.box{
+  width: 40px;
+  height: 180px;
+  background: purple;
+  color:aqua
+}
+.box-red{
+  width: 40px;
+  height: 180px;
+  background: red;
+  color:aqua
+}
